@@ -3146,9 +3146,9 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
     background: repeating-radial-gradient(black, transparent 10em);
 }
 
-.nowPlayingPageImageContainerNoAlbum .cardImageContainer .cardImageIcon {
+/*.nowPlayingPageImageContainerNoAlbum .cardImageContainer .cardImageIcon {
     color: var(--borderColor);
-}
+}*/
 
 .layout-mobile .playlistSection .playlist {
     padding: 4.3em 0;
