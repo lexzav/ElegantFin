@@ -1,5 +1,8 @@
 /* ElegantFin Theme v25.08.08 for Jellyfin by lscambo13 */
 
+/* Code to paste to Jellyfin*/
+/*@import url("https://cdn.jsdelivr.net/gh/lexzav/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");*/
+
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -7,9 +10,9 @@
 :root {
     --elegantFinFooterText: "ElegantFin v25.08.08";
     --color-scheme: dark;
-    --darkerGradientPoint: #111827;
+    --darkerGradientPoint: #140424;
     --darkerGradientPointAlpha: rgba(17, 24, 39, 0.85);
-    --lighterGradientPoint: #d7e3f0;
+    --lighterGradientPoint: #140424;
     --lighterGradientPointAlpha: rgba(29, 38, 53, 0.85);
     --headerColor: rgba(30, 40, 54, 0.8);
     --drawerColor: rgba(30, 40, 54, 0.9);
@@ -25,8 +28,8 @@
     --osdSeekBarThumbColor: white;
     --tableBodyColor: rgb(31, 41, 55 / 1);
     --uiAccentColor: rgb(117, 111, 226);
-    --btnMiniPlayColor: rgb(62, 143, 236);
-    --btnMiniPlayBorderColor: rgb(50, 167, 105);
+    --btnMiniPlayColor: rgb(108, 61, 218);
+    --btnMiniPlayBorderColor: rgb(12, 107, 216);
     --btnDeleteColor: rgb(169, 29, 29);
     --btnDeleteBorderColor: rgb(217, 84, 84);
     --btnSubmitColor: rgb(61, 54, 178);
@@ -39,8 +42,8 @@
     --dimTextColor: rgb(156, 163, 175);
     --backgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint) 35%, var(--lighterGradientPoint));
     --cardBackgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint), 25%, var(--lighterGradientPoint));
-    --headerColorGradient: linear-gradient(180deg, rgba(30, 40, 54, 0.95) 30%, 55%, transparent 90%);
-    --headerColorGradientAlt: linear-gradient(180deg, rgba(30, 40, 54, 0.95), 70%, transparent);
+     --headerColorGradient: linear-gradient(180deg, rgba(56, 4, 104, 0.95) 30%, 45%, transparent 90%);
+    --headerColorGradientAlt: linear-gradient(180deg, rgba(56, 4, 104, 0.95), 70%, transparent);
     --headerBlurMask: linear-gradient(180deg, white 50%, 85%, transparent);
     --cardFooterGradient: linear-gradient(0deg, rgb(0 0 0 / 90%), 40%, transparent);
     --topOSDGradient: linear-gradient(180deg, hsla(0, 0%, 0%, 0.8), 45%, hsla(0, 0%, 0%, 0));
